@@ -18,7 +18,6 @@ main{
     width: 100%;
     height: 100vh;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.20);
-    padding: 47px 66px 245px;
 }
 .registration-sector{
     max-width: 552px;
@@ -103,6 +102,11 @@ h3 span{
     border-radius: 10px;
     border: 1px solid rgba(0, 0, 0, 0.40);
     padding-left: 24px;
+}
+.checkbox{
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
 }
 .card{
     position: relative;
@@ -194,6 +198,34 @@ button span{
     line-height: 32px;
     border: none;
     cursor: pointer;
+    background-color: #FFF;
+}
+.people{
+    display: flex;
+    gap: 20px;
+    max-width: 550px;
+    width: 100%;
+    height: 120px;
+    margin: 50px 0px 20px;
+}
+.person1, .person2, .person3, .person4, .person5{
+    max-width: 100px;
+    width: 100%;
+    height: 100px;
+    background-image: url(../imeges/mosaic1.png);
+    border-radius: 15px;
+}
+.person2{
+    background-image: url(../imeges/mosaic2.png);
+}
+.person3{
+    background-image: url(../imeges/mosaic3.png);
+}
+.person4{
+    background-image: url(../imeges/mosaic4.png);
+}
+.person5{
+    background-image: url(../imeges/mosaic5.png);
 }
 h4{
     color: var(--Header-text, #212628);
@@ -252,5 +284,37 @@ h5{
     font-weight: 400;
     line-height: 28px; 
     letter-spacing: 0.024px;
-    margin-bottom: 20px;
+    margin:0px 65px 20px;
+}
+.news{
+    display: flex;
+    justify-content: space-between;
+    max-width: 360px;
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    align-items: center;
+    max-width: 62px;
+    width: 100%;
+    height: 62px;
+    background-image: url(../imeges/white.svg);
+}
+.logo1, .logo2, .logo3, .logo4{
+    position: absolute;
+    max-width: 52px;
+    width: 100%;
+    height: 52px;
+    background-image: url(../imeges/logo1.png);
+    border-radius: 40px;
+}
+.img4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
